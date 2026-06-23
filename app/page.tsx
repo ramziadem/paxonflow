@@ -1,6 +1,8 @@
 import ContactForm from "@/components/contact-form";
 import TestimonialCarousel from "@/components/testimonial-carousel";
 import ZohoCalendar from "@/components/zoho-calendar";
+import Logo from "@/app/Logo.png"
+import Image from "next/image";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -124,9 +126,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-white/8 bg-slate-950/65 backdrop-blur-xl">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
           <a href="#top" className="flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-amber-300/15 text-amber-300 ring-1 ring-amber-300/25">
-              PF
-            </span>
+            <Image src={Logo} alt="Paxonflow Logo" className="flex h-11 w-11 items-center justify-center rounded-2xl ring-1 ring-amber-300/25" />
             <span className="text-display text-lg font-semibold tracking-[0.24em] text-white">
               PAXONFLOW
             </span>
@@ -477,7 +477,8 @@ export default function Home() {
       <footer className="border-t border-white/8 bg-slate-950/60">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>
-            <p className="text-display text-xl font-semibold text-white">PAXONFLOW</p>
+            <Image src={Logo} alt="Paxonflow Logo" className="h-10 w-10 float-left rounded-2xl ring-1 ring-amber-300/25 mr-8" />
+            <p className="text-display text-xl font-semibold text-white">PAXONFLOW</p><br />
             <p className="mt-2 text-sm text-slate-400">
               Workflow automation for insurance agencies and small businesses.
             </p>
