@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "PaxonFlow | Automation Agency for Insurance and SMBs",
   description:
-    "One-page automation agency website for workflow design, client onboarding, and growth systems.",
+    "Builds workflow automation for insurance agencies and small businesses. Lead capture, client onboarding, CRM setup, and retention systems.",
 };
 
 export default function RootLayout({
