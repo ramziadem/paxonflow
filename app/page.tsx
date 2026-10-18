@@ -51,13 +51,13 @@ const services = [
 const packages = [
   {
     name: "Starter Sprint",
-    price: "$1,249 / £949",
+    price: "$799 / £600",
     description: "Best for solo operators or small teams that need a fast clarity reset.",
     items: ["Workflow audit", "One core automation", "CRM cleanup", "1-week handoff"],
   },
   {
     name: "Growth Engine",
-    price: "$3,499 / £2,749",
+    price: "$3,399 / £2,499",
     description: "Ideal for agencies and small businesses ready to reduce subscription waste.",
     items: ["Client onboarding", "Lead nurture sequence", "Dashboard setup", "Training session"],
     featured: true,
