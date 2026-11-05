@@ -50,6 +50,12 @@ const services = [
 
 const packages = [
   {
+    name: "Lite Starter",
+    price: "$269 / £199",
+    description: "Best for discovering and solo entrepreneurs.",
+    items: ["Workflow audit", "Workflow Planning and explaining", "1-week full support"],
+  },
+  {
     name: "Starter Sprint",
     price: "$799 / £600",
     description: "Best for solo operators or small teams that need a fast clarity reset.",
@@ -63,10 +69,10 @@ const packages = [
     featured: true,
   },
   {
-    name: "Scale Partner",
-    price: "$6,499+ / £4,999+",
-    description: "For businesses that want a full operating system and monthly strategic support.",
-    items: ["Multi-step workflows", "Team handoff system", "Reporting suite", "Priority support"],
+    name: "Monthly Support",
+    price: "$399 / £299",
+    description: "For monthly cleaning, support, updating, and following up.",
+    items: ["Multi-step workflows", "Issues fix", "System update", "Priority support"],
   },
 ];
 
